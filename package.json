@@ -2,7 +2,7 @@
   "name": "rest-api",
   "version": "0.0.1",
   "description": "REST API with tests and deployment",
-  "main": "index.js",
+  "main": "rest-api/index.js",
   "dependencies": {
     "express": "^4.16.3"
   },
@@ -13,11 +13,14 @@
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
-    "nodeunit": "^0.11.3"
+    "mocha": "^5.2.0",
+    "nodeunit": "^0.11.3",
+    "nyc": "^12.0.2",
+    "sinon": "^6.1.4"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: will test later\""
+    "start": "node rest-api/index.js",
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
