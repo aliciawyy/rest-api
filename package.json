@@ -2,7 +2,7 @@
   "name": "rest-api",
   "version": "0.0.1",
   "description": "REST API with tests and deployment",
-  "main": "rest-api/index.js",
+  "main": "app.js",
   "devDependencies": {
     "eslint": "^5.2.0",
     "eslint-config-standard": "^11.0.0",
@@ -16,7 +16,7 @@
     "sinon": "^6.1.4"
   },
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
     "start": "node ./bin/www"
   },
   "repository": {
@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/aliciawyy/rest-api/issues"
   },
-  "homepage": "https://github.com/aliciawyy/rest-api#readme"
+  "homepage": "https://github.com/aliciawyy/rest-api#readme",
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
