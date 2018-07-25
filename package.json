@@ -1,0 +1,35 @@
+{
+  "name": "rest-api",
+  "version": "0.0.1",
+  "description": "REST API with tests and deployment",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "nodeunit": "^0.11.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: will test later\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliciawyy/rest-api.git"
+  },
+  "keywords": [
+    "REST"
+  ],
+  "author": "Alice Wang <rainingilove@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aliciawyy/rest-api/issues"
+  },
+  "homepage": "https://github.com/aliciawyy/rest-api#readme"
+}
