@@ -7,4 +7,4 @@ const indexSchema = new mongoose.Schema({
   'Allocation': [Number],
 });
 
-const cryptoIndex = mongoose.model('CryptoIndex', indexSchema);
+module.exports.CryptoIndex = mongoose.model('CryptoIndex', indexSchema);
